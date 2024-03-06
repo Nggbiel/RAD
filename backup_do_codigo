@@ -70,18 +70,3 @@ with open("texto.txt", "w") as arquivo:
             print(arquivo.read())
 except FileNotFoundError:
         print("arquivo inexistente")'''
-
-'''import os
-
-try:
-    os.remove("teste.txt")
-    print("arquivo foi removido")
-except FileNotFoundError as erro:
-    print("arquivo inesistente")'''
-
-
-try:
-    f = open("novo2.text","r")
-    f.write("hello")
-except IOError as erro:
-    print("O erro foi", erro)
